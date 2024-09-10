@@ -1,8 +1,12 @@
 sphinx==3.1.2
-Jinja2==3.0.*
+Jinja2==3.1.4
 breathe==4.25.0
 exhale==0.2.3
 docutils==0.16
 -e git+https://github.com/pytorch/pytorch_sphinx_theme.git#egg=pytorch_sphinx_theme
 bs4
 lxml
+certifi>=2024.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
+pygments>=2.15.0 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.31.0 # not directly required, pinned by Snyk to avoid a vulnerability
